@@ -1,0 +1,11 @@
+{
+  "name": "lucasklaassen",
+  "version": "1.0.0",
+  "description": "Personal website and blog for Lucas Klaassen",
+  "author": "Lucas Klaassen",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "3.14.2",
+    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin"
+  }
+}

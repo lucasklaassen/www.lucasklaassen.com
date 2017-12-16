@@ -1,0 +1,100 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.webpack
+
+###
+# ECLIPSE IDE project files
+##
+.project
+.cache
+.cache/*
+.settings
+.settings/*
+
+###
+# Sublime
+###
+.sublime_project
+.sublime_workspace
+platform.sublime-project
+platform.sublime-workspace
+platform.sublime-project
+platform.sublime-workspace
+platform.sublime-project
+platform.sublime-workspace
+sftp-config.json
+
+
+###
+# system SWAP, TMP and BACKUP files
+###
+*~
+*.swp
+*.bak
+
+###
+# Mac OS X directory preferences
+###
+.DS_Store
+._*
+
+###
+# Fusebox
+###
+parsed/
+
+###
+# System
+###
+/pos/assets/js/minify/*
+/pos/settings/*
+
+/_base3/cache/*
+
+###
+# Temp
+/siteadmin/temp/*
+###
+
+settings.ini
+
+###
+# SASS
+##
+
+.sass-cache
+tests/local.cfm
+tests/local.yml
+tests/bin/*
+
+
+###
+# Testing
+###
+
+tests/spec/snapshots/*
+tests/vendor/*
+tests/bin/*
+
+
+###
+# Node
+###
+pos/v2/node_modules/*
+pos/v2/node_modules/
+assets/css/node_modules/*
+assets/css/node_modules/
+assets/css/gulpfile.js
+node_modules/
+cfcs/website/utils/local.features.yaml
+cfcs/website/utils/local.settings.yaml
+npm-debug.log*
+
+secrets.staging.yml
+secrets.production.yml
+secrets.development.yml
+client/server.js
