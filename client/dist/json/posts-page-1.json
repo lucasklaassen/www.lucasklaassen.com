@@ -14,7 +14,7 @@
     "post_author_edited": null,
     "post_title": "Debugging lambdas using the serverless framework + serverless-webpack.",
     "post_slug": "debugging-lambdas-serverless-webpack",
-    "post_content": "<p>Hello World</p>",
+    "post_content": "<p>Our team has started to use the <a href=\"https://serverless.com/\" target=\"_blank\" rel=\"noopener\">serverless-framework</a> to create microservices. We have built API's for basic CRUD features to full fledged ETL processes which pipe our microservice data back to our reporting database. This framework saves us a lot of time and gives us guidelines to organize our lambda's and AWS resources into categorized services...</p>",
     "post_status": "published",
     "featured_image": null,
     "created_at": "2017-12-17 17:30:00",
