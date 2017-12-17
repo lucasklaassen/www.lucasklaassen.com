@@ -12,7 +12,8 @@
     "grunt-contrib-qunit": "~0.5.2",
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-ng-annotate": "~2.0.2"
+    "grunt-ng-annotate": "~2.0.2",
+    "semver": "4.3.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
