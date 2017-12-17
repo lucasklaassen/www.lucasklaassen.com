@@ -1,0 +1,34 @@
+{
+  "total": 1,
+  "per_page": 1,
+  "current_page": 1,
+  "last_page": 1,
+  "next_page_url": null,
+  "prev_page_url": null,
+  "from": 1,
+  "to": 1,
+  "data": [{
+    "id": "1",
+    "post_date": "2017-12-17 17:30:00",
+    "post_author": "1",
+    "post_author_edited": null,
+    "post_title": "Debugging lambdas using the serverless framework + serverless-webpack.",
+    "post_slug": "debugging-lambdas-serverless-webpack",
+    "post_content": "<p>Hello World</p>",
+    "post_status": "published",
+    "featured_image": null,
+    "created_at": "2017-12-17 17:30:00",
+    "updated_at": "2017-12-17 17:30:00",
+    "author": {
+      "id": "1",
+      "firstname": "Lucas",
+      "lastname": "Klaassen",
+      "email": "lucasklaassen1@gmail.com",
+      "profile_image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0ac/295/228b398.jpg",
+      "confirmed": "1",
+      "confirmation_code": null,
+      "created_at": "2017-12-17 17:30:00",
+      "updated_at": "2017-12-17 17:30:00"
+    }
+  }]
+}

@@ -4,8 +4,8 @@ provider:
   name: aws
   runtime: nodejs6.10
   region: us-west-2
-  stage: ${opt:stage, self:custom.defaultStage}
-  profile: ${self:provider.stage}
+  stage: production
+  profile: personal
 package:
   exclude:
     - docs/**
@@ -26,11 +26,6 @@ plugins:
 custom:
   s3Bucket: lucasklaassen
   s3BucketDirectory: client/dist
-  region: ${self:provider.region}
-  stage: ${opt:stage, self:provider.stage}
   serverless-offline:
     babelOptions:
       presets: ["es2015"]
-  defaultStage: production
-  profiles:
-    production: personal
