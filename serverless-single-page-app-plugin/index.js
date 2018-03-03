@@ -61,8 +61,9 @@ class ServerlessPlugin {
 		return provider
 			.request(
 				'CloudFormation',
-				'describeStacks',
-				{ StackName: stackName },
+				'describeStacks', {
+					StackName: stackName
+				},
 				this.options.stage,
 				this.options.region // eslint-disable-line comma-dangle
 			)
