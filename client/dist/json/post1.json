@@ -1,0 +1,24 @@
+{
+  "id": "1",
+  "post_date": "2017-12-17 17:30:00",
+  "post_author": "1",
+  "post_author_edited": null,
+  "post_title": "Debugging lambdas using the serverless framework + serverless-webpack.",
+  "post_slug": "debugging-lambdas-serverless-webpack",
+  "post_content": "<p>Our team has started to use the <a href=\"https://serverless.com/\" target=\"_blank\" rel=\"noopener\">serverless-framework</a> to create microservices. We have built API's for basic CRUD features to full fledged ETL processes which pipe our microservice data back to our reporting database. This framework saves us a lot of time and gives us guidelines to organize our lambda's and AWS resources into categorized services. We use the <a href=\"https://github.com/dherault/serverless-offline\" target=\"_blank\" rel=\"noopener\">serverless-offline plugin</a> to run our lambdas in a local environment and we use it alongside our test suite. One thing that we were missing with this framework was the ability to use <a href=\"https://code.visualstudio.com/docs/editor/debugging\" target=\"_blank\" rel=\"noopener\">visual studio debugging</a> support with nodejs. It's a beautiful thing to be able to see what's going on in your app at runtime. As a team, we missed dropping in `debugger`.</p><p>We use the <a href=\"https://github.com/serverless-heaven/serverless-webpack\" target=\"_blank\" rel=\"noopener\">serverless-webpack plugin</a> to bundle our project before we deploy to AWS. This intially appeared to add a layer of complexity to debugging. After reading through this <a href=\"https://github.com/serverless-heaven/serverless-webpack/issues/42#issuecomment-288845943\" target=\"_blank\" rel=\"noopener\">thread</a> however, we saw the light.</p><p>All we needed to do was update our <a href=\"https://gist.github.com/lucasklaassen/7c18b28d8c4d692db439ca367e973db0\" target=\"_blank\" rel=\"noopener\">webpack.config.js</a> with `devtool: 'source-map'`. <a href=\"https://gist.github.com/lucasklaassen/6b09ae7ee5542f2a69c494a66362fc4b\" target=\"_blank\" rel=\"noopener\">Here is a copy of our launch.json file</a> which you can use within Visual Studio Code to get debugging support setup.</p><p>If you have any comments or questions please reach out on the gist's provided or <a href=\"mailto:lucasklaassen1@gmail.com\">send me an email.</a></p>",
+  "post_status": "published",
+  "featured_image": null,
+  "created_at": "2017-12-17 17:30:00",
+  "updated_at": "2017-12-17 17:30:00",
+  "author": {
+    "id": "1",
+    "firstname": "Lucas",
+    "lastname": "Klaassen",
+    "email": "lucasklaassen1@gmail.com",
+    "profile_image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0ac/295/228b398.jpg",
+    "confirmed": "1",
+    "confirmation_code": null,
+    "created_at": "2017-12-17 17:30:00",
+    "updated_at": "2017-12-17 17:30:00"
+  }
+}

@@ -141,7 +141,7 @@ app.controller('postController', function ($scope, $http, $state, $stateParams) 
 
   post_id = $stateParams.id;
 
-  $http.get('json/post.json').success(function (response) {
+  $http.get('json/post' + post_id + '.json').success(function (response) {
     $scope.post_id = response.id;
     $scope.post_date = response.post_date;
     $scope.post_title = response.post_title;
