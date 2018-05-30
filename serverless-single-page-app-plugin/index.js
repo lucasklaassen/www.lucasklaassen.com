@@ -41,6 +41,7 @@ class ServerlessPlugin {
 			'--delete'
 		];
 		const result = spawnSync('aws', args);
+		console.log(result)
 		const stdout = result.stdout.toString();
 		const sterr = result.stderr.toString();
 		if (stdout) {

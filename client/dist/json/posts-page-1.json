@@ -1,6 +1,6 @@
 {
-  "total": 3,
-  "per_page": 3,
+  "total": 4,
+  "per_page": 4,
   "current_page": 1,
   "last_page": 1,
   "next_page_url": null,
@@ -8,6 +8,30 @@
   "from": 1,
   "to": 1,
   "data": [{
+    "id": "4",
+    "post_date": "2018-05-29 19:10:00",
+    "post_author": "1",
+    "post_author_edited": null,
+    "post_title": "Angular 6 Rollbar Source Maps",
+    "post_slug": "angular-6-rollbar-source-maps",
+    "post_content": "<p>When you minify your javascript code with the Angular CLI it is hard to debug exceptions that arise in a production environment within Rollbar.</p>",
+    "post_status": "published",
+    "featured_image": null,
+    "created_at": "2018-05-29 19:10:00",
+    "updated_at": "2018-05-29 19:10:00",
+    "author": {
+      "id": "1",
+      "firstname": "Lucas",
+      "lastname": "Klaassen",
+      "email": "lucasklaassen1@gmail.com",
+      "profile_image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/0ac/295/228b398.jpg",
+      "confirmed": "1",
+      "confirmation_code": null,
+      "created_at": "2018-05-29 19:10:00",
+      "updated_at": "2018-05-29 19:10:00"
+    }
+  },
+  {
       "id": "3",
       "post_date": "2018-03-03 10:30:00",
       "post_author": "1",
