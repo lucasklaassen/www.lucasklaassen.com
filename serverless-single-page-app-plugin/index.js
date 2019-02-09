@@ -34,6 +34,7 @@ class ServerlessPlugin {
 		const profile = this.serverless.variables.service.provider.profile;
 		const args = [
 			`--profile=${profile}`,
+			`--region=us-west-2`,
 			's3',
 			'sync',
 			`${s3BucketDirectory}/`,
