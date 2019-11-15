@@ -69,8 +69,8 @@ app.filter('currentYear', ['$filter', function ($filter) {
 // MAIN CONTROLLER/HOME
 app.controller('mainController', function ($scope, $http, $sce, $timeout, $stateParams) {
 
-  $scope.page_title = 'Serverless';
-  $scope.page_subtitle = 'A space to learn about new tech';
+  $scope.page_title = 'Lucas Klaassen';
+  $scope.page_subtitle = 'My journey into tech';
 
   $scope.date = new Date();
 
@@ -108,7 +108,6 @@ app.controller('mainController', function ($scope, $http, $sce, $timeout, $state
       $scope.currentPage = response.current_page;
       $scope.loading = false;
       $scope.pager = true;
-
 
       if (pageNumber > $scope.totalPages) {
         $scope.noResult = true;
