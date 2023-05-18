@@ -1,3 +1,0 @@
-LucasKlaassenCloudFrontDistributionOutput:
-  Value:
-    'Fn::GetAtt': [ LucasKlaassenCloudFrontDistribution, DomainName ]
